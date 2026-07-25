@@ -14,9 +14,9 @@ export default function Projects() {
         "Efficient database architecture and RESTful APIs integration.",
         "Smooth user flow from landing page to checkout.",
       ],
-      image: "/src/public/projects/ecommerce.jpg.png",
+      image: "/projects/ecommerce.jpg",
       ctaLabel: "Live Demo",
-      ctaLink: "/src/public/projects/ecommerce.jpg.png",
+      ctaLink: "/projects/ecommerce.jpg",
     },
     {
       title: "Comprehensive Brand Identity & Visual Design",
@@ -29,9 +29,9 @@ export default function Projects() {
         "High-converting Social Media Templates & Corporate Flyers.",
         "Professional Digital Product Mockups.",
       ],
-      image: "/src/public/projects/branding.jpg.png",
+      image: "/projects/branding.jpg",
       ctaLabel: "View Case Study",
-      ctaLink: "/src/public/projects/branding.jpg.png",
+      ctaLink: "/projects/branding.jpg",
     },
     {
       title: "Digital Marketing & Audience Growth Campaign",
@@ -43,9 +43,9 @@ export default function Projects() {
         "Increased organic reach and engagement by over 150%.",
         "Successfully drove targeted leads through high-converting ad copy and visual content.",
       ],
-      image: "/src/public/projects/marketing.jpg.png",
+      image: "/projects/marketing.jpg",
       ctaLabel: "View Case Study",
-      ctaLink: "/src/public/projects/marketing.jpg.png",
+      ctaLink: "/projects/marketing.jpg",
     },
   ];
 
