@@ -31,7 +31,7 @@ export default function About() {
       <p className="mb-4 text-lg text-slate-900">
         Hi, I'm <span className="font-semibold text-slate-900">Hassan Mukhtar Hassan</span>.
       </p>
-      <p className="mb-10 max-w-2xl text-lg text-slate-900">
+      <p className="mb-10 max-w-2xl text-lg text-slate-700">
         I am a multidisciplinary digital specialist blending design, development, and
         marketing. I help businesses scale by creating seamless end-to-end digital
         experiences.
@@ -41,10 +41,10 @@ export default function About() {
         {pillars.map((p) => (
           <div
             key={p.title}
-            className="rounded-xl border border-slate-200 p-6 transition hover:shadow-md"
+            className="rounded-xl border border-slate-200 bg-gradient-to-b from-white to-blue-50/40 p-6 transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-md"
           >
-            <h4 className="mb-2 font-semibold text-slate-900">{p.title}</h4>
-            <p className="text-sm text-slate-800">{p.desc}</p>
+            <h4 className="mb-2 font-semibold text-blue-700">{p.title}</h4>
+            <p className="text-sm text-slate-600">{p.desc}</p>
           </div>
         ))}
       </div>

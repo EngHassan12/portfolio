@@ -19,11 +19,11 @@ export default function Footer() {
     >
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-6 py-10 md:flex-row">
         <div className="text-center md:text-left">
-          <p className="font-bold text-slate-900">Hassan</p>
-          <p className="text-sm text-slate-700">Web Developer & Designer</p>
+          <p className="font-bold text-slate-900">H.Quuyow</p>
+          <p className="text-sm text-slate-700">Web Developer, Graphic Designer & Digital Marketing</p>
         </div>
 
-        <div className="flex gap-6">
+        <div className="flex flex-wrap justify-center gap-6 md:justify-start">
           {socials.map((s) => (
             <a
               key={s.label}
@@ -35,10 +35,17 @@ export default function Footer() {
               {s.label}
             </a>
           ))}
+          <a
+            href="/Hassan-Mukhtar-Hassan-CV.docx"
+            download
+            className="text-sm text-slate-800 transition hover:text-slate-900"
+          >
+            Download Resume
+          </a>
         </div>
 
         <p className="text-sm text-slate-400">
-          © {year} Hassan. All rights reserved.
+          © {year} H.Quuyow. All rights reserved.
         </p>
       </div>
     </footer>
