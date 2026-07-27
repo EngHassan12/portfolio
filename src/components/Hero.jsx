@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="flex w-full max-w-6xl flex-col items-center text-center md:flex-row md:items-center md:justify-between md:gap-12 md:text-left">
         <div className="order-2 max-w-xl md:order-1">
           <span className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-slate-900">
-            Web Developer & Graphic Designer
+            Web Developer , Graphic Designer & Digital Marketing
           </span>
           <h1 className="mb-4 text-4xl font-extrabold text-slate-900 md:text-5xl lg:text-6xl">
             Hi, I'm Hassan Mukhtar Hassan
